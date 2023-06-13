@@ -6,7 +6,7 @@ jQuery(function() {
         if (appear == false) {
           appear = true;
           pagetop.stop().animate({
-            'right': '20px' //右から0pxの位置に
+            'right': '20px' 
           }, 300); //0.3秒かけて現れる
         }
       } else {
